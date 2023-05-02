@@ -31,11 +31,10 @@ public class Post {
         super();
     }
 
-    public Post(String title, String body, Author author) {
+    public Post(String title, String body) {
         this();
         this.title = title;
         this.body = body;
-        this.author = author;
     }
 
     public Long getId() {
